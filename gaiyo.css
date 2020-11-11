@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+h1{
+     text-align: center;
+     font-size: 85px;
+     font-family: 'Sacrament' , cursive;
+    }
+
+.p{
+    font-weight: bold;
+    }
+
+p{
+    text-align: right;
+    
+    }
+
+.head{
+     text-align: center;
+     font-size: 200%;
+     font-family: 'Sacrament' , cursive;
+    }
+
+h2{
+	 font-family: 'Sacrament' , cursive;
+	}
+
+img{
+    width: 75%;
+    }
+
+.p{
+    display: inline-block;
+    text-align: right;
+    font-size: 200%;
+    margin-left: 80px;
+    }
+
+.president{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 500%;
+    }
+    
+.box{
+    margin-top: 200px;
+    }
+
+.box1{
+    margin-top: 200px;
+    text-align: right;
+    }
+
+table{
+    border: solid 1px black;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+th{
+    border: solid 1px black; 
+    padding: 10px;
+}
+
+td{
+    border: solid 1px black; 
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.education{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+    margin-top: 150px;
+    line-height: 500%;
+    }
+    
+.top{
+    height: 35px;
+    width: 200px;
+    color: blue;
+    font-weight: bold;
+    text-align:center;
+    font-size: 25px;
+    border-radius: 35%;
+    }
+
+textarea{
+    text-align:center;
+    font-weight: bold;
+    height: 25px;
+    width: 180px; 
+    margin-top: 150px;
+    border-radius: 50%;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

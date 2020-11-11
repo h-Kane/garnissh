@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+        <title>kaneshimaのHP</title>
+        <link rel="stylesheet" href="otoi.css">
+    </head>
+    <body>
+        <img src="images/ghead.jpg">
+        <div class="p">
+            <a href="index.html"><p>HOME</p></a>
+            <a href="zigyou.html"><p>事業概要</p></a>
+            <a href="gaiyo.html"><p>会社概要</p></a>
+            <a href="otoi.html"><p>お問い合わせ</p></a>
+        </div>
+        <h1>～Contact～</h1>
+        <form class="mailform" action="mail.php" method="post">
+            <p class="otoiawase">お気軽にお問い合わせください。</p>
+            <dl>
+                <dt class="namae">お名前</dt>
+                <dd>
+                    <input name class="name" type="text" required="required" id="name">
+                </dd>
+                <dt class="mail">メールアドレス</dt>
+                <dd>
+                    <input name class="email" type="email" required="required" id="email">
+                </dd>
+                <dt class="naiyou">お問い合わせ内容</dt>
+                <dd>
+                <div class="textarea">    
+                    <textarea name="content" required="required" id="content"></textarea>
+                </div>
+                </dd>
+                <input type="hidden" id="token" name="token" value="1234567" />
+            </dl>
+            <p id="submit_button_cover">
+                <input name="submit_buton" type="submit" id="submit_button" value="送信">
+            </p>
+        </form>
+        <a href="#"><textarea class="top">ページトップへ</textarea></a>
+        <script src="//code.jquery.com/jquery-1.12.1.min.js"></script>
+        <script src ="main.js"></script>
+    </body>
+</html>
+
+
+
+
+

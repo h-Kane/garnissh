@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+h1{
+     text-align: center;
+     font-size: 85px;
+     font-family: 'Sacrament' , cursive;
+    }
+
+.p{
+    font-weight: bold;
+    }
+
+p{
+    text-align: right;
+    }
+
+h2{
+	 font-family: 'Sacrament' , cursive;
+	}
+
+img{
+    width: 75%;
+    }
+
+.p{
+    display: inline-block;
+    text-align: right;
+    font-size: 200%;
+    margin-left: 80px;
+    }
+
+.name{
+    height: 50px;
+    width: 100%;
+    }
+
+.email{
+    height: 50px;
+    width: 100%;
+}
+
+.mailform{
+    width: 70%;
+    margin: 0 auto;
+}
+
+dd{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.otoiawase{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    }
+
+.namae{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+
+.mail{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+
+.naiyou{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+textarea{
+    height: 200px;
+    width: 100%;
+    }
+
+#submit_button_cover {
+    height: 43px;
+    width: 180px;
+    display: inline-block;
+    /* margin: 0 auto; */
+    margin-left: 36%;
+}
+    
+#submit_button {
+    width: 100%;
+    height: 50px;
+    margin-left: 68px;
+}
+
+.top{
+    height: 35px;
+    width: 200px;
+    color: blue;
+    font-weight: bold;
+    text-align:center;
+    font-size: 25px;
+    border-radius: 35%;
+    }
+
+textarea{
+    height: 200px;
+    width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
